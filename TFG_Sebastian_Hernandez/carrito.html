@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="menu.html" class="logo">Clothe<span>Shop</span></a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="soporte.html">Soporte</a></li>
+                    <li><a href="carrito.html" class="active"><i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="cart-main container">
+        <h1 class="page-title">Tu Carrito</h1>
+
+        <div id="cart-container">
+
+        </div>
+
+        <div id="empty-cart" class="empty-message">
+            <p>Tu carrito está vacío. <a href="catalogo.html">Sigue comprando</a></p>
+        </div>
+    </main>
+
+    <script src="carrito.js"></script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ClotheShop</h4>
+                    <p>ClotheShop, entrega rápida, experiencia segura.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="soporte.html">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ClotheShop. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
